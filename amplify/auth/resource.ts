@@ -1,4 +1,5 @@
-import { referenceAuth } from '@aws-amplify/backend';
+//import { referenceAuth } from '@aws-amplify/backend';
+import { referenceAuth } from 'amplify/auth';
 
 export const auth = referenceAuth({
   userPoolId: 'us-east-1_ht2H5Bj34',
